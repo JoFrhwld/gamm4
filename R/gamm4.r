@@ -734,10 +734,10 @@ print.gamm4.version <- function()
   packageStartupMessage(hello)
 }
 
-.onAttach <- function(...) { 
-  print.gamm4.version()
- 
-}
+#.onAttach <- function(...) { 
+#  print.gamm4.version()
+# 
+#}
 
 .onUnload <- function(libpath) {}
 
